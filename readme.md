@@ -122,3 +122,16 @@ This expected response is
   "message": "Equipment Successfully deleted"
 }
 ```
+
+## Tests
+
+If you want to run tests, the application already has some unity and integration tests, that you could run using both npm or yarn
+```
+yarn test
+```
+Or
+```
+npm test
+```
+
+
