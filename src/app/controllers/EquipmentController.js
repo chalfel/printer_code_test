@@ -81,7 +81,7 @@ class EquipmentController {
       if(!equipment) return res.status(404).json({ message: 'Equipment Not Found' })
   
       await equipment.destroy();
-      return res.json({message: 'Equipment Successfully updated'});
+      return res.json({message: 'Equipment Successfully deleted'});
     } catch(e) {
       return res.status(500).json({ 
         message: 'Something went Wrong',
